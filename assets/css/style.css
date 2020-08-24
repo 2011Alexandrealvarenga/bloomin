@@ -19,15 +19,30 @@ header{
 
  .title .main-box{
   width: 70%;
-  height: 500px;
+  height: 550px;
   position: absolute;
   bottom: 0;
   left: 2%;
  }
+ .title .main-box .text{
+  z-index: 1;
+  position: absolute;
+  top: 40%;
+  left: 15%;
+  width: 400px;
+  background: yellow;
+
+ }
+ .title .main-box .text h2{
+  font-size: 35px;
+ }
+ .title .main-box .text p{
+  padding: 20px 0;
+ }
  .title .main-box .box-center{
   position: absolute;
   width: 80%;
-  height: 500px;
+  height: 550px;
   bottom: 0;
   right: 0;
   background:  #cec;}

@@ -42,8 +42,11 @@
       </div>
     </div>
     <div class="main-box">
-      <div class="box-center">
-        
+      <div class="text">
+        <h2>Georgina Alson</h2>
+        <p>YOUNG MODEL, 20200</p>
+      </div>
+      <div class="box-center">        
       </div>
       <div class="view-profile">
         <a href="#">
