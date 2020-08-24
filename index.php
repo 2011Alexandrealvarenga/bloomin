@@ -5,6 +5,7 @@
   <title>Bloomin</title>
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -34,6 +35,12 @@
     </div>
   </nav>
 </header>
+<main>
+  <section class="title">
+    <div class="box-right">
+    </div>
+  </section>
+</main>
 
 </body>
 </html>

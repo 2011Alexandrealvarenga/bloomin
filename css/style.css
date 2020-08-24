@@ -1,1 +1,7 @@
 .collapse{justify-content: space-between;}
+.title .box-right{
+  width: 500px;
+  height: 400px;
+  float: right;
+  background: aqua;
+}
