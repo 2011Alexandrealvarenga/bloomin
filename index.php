@@ -3,9 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <title>Bloomin</title>
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/fontello.css">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -30,7 +31,7 @@
       <a class="navbar-brand" href="#">MITALENT</a>
       <form class="form-inline my-2 my-lg-0">
         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit"></button>
       </form>
     </div>
   </nav>
