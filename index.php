@@ -29,9 +29,15 @@
         </li>
       </ul>
       <a class="navbar-brand" href="#">MITALENT</a>
+      <!--
       <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit"></button>
+        
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="icon-search"></i></button>
+      </form>
+      -->
+      <form>
+        <input type="text" name="search" placeholder=".." >
+        
       </form>
     </div>
   </nav>
@@ -57,10 +63,12 @@
           </div>
         </a>
       </div>
+    </div>      
+  </section>
+  <section class="secoes">
+    <div class="container-fluid">
+      <p>modelos</p>
     </div>
-      
-    
-    
   </section>
 </main>
 

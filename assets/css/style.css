@@ -2,14 +2,44 @@ header{
   z-index: 1;
   position: absolute;
   width: 100%;}
-.collapse{
-  justify-content: space-between;}
+
+header .collapse{
+  justify-content: space-between;
+}
+header .collapse a.navbar-brand{
+  margin:0 ;
+  font-weight: bold;
+}
+
+
+
+input[type=text] {
+  width: 10px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('../img/search.png');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+  width: 200px;
+}
+
+
 .title{
-  position: absolute;
+  position: relative;
   width: 100%;
   height: 700px;
   top: 0;
   left: 0;}
+
 .title .box-right{
   width: 37%;
   height: 400px;
@@ -51,7 +81,7 @@ header{
   width: 29%;
   bottom: 0;
   left: 0;
-  height: 14%;
+  height: 10%;
   background: yellow;
   position: absolute;}
 
