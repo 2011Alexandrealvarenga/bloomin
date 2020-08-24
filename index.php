@@ -37,8 +37,13 @@
 </header>
 <main>
   <section class="title">
-    <div class="box-right">
+    <div class="container-fluid">
+      <div class="box-right">
+      </div>
+      <div class="box-center">
+      </div>
     </div>
+    
   </section>
 </main>
 
