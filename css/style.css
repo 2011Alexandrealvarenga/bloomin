@@ -11,14 +11,15 @@ header{
   top: 0;
   left: 0;}
 .title .box-right{
-  width: 500px;
+  width: 37%;
   height: 400px;
   float: right;
   background: aqua;
 }
 .title .box-center{
-  width: 600px;
+  width: 50%;
   height: 400px;
   bottom: 0;
-  left: 30%;
-  background: #cec;}
+  left: 20%;
+  position: absolute;
+  background:  #cec;}
