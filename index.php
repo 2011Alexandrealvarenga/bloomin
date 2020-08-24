@@ -69,8 +69,71 @@
     <div class="container-fluid">
       <p>modelos</p>
     </div>
+    <div class="container-fluid">
+      <div class="container">
+        <div class="row mt-3">
+          <div class="col">
+            <ul class="nav nav-tabs">
+              <li class="nav-item">
+                <a href="#tab1" class="nav-link active" data-toggle="tab">ACTOR</a>
+              </li>
+              <li class="nav-item">
+                <a href="#tab2" class="nav-link" data-toggle="tab">MUSICIAN</a>
+              </li>
+              <li class="nav-item">
+                <a href="#tab3" class="nav-link" data-toggle="tab">COMEDIAN</a>
+              </li>
+              <li class="nav-item">
+                <a href="#tab4" class="nav-link" data-toggle="tab">MODEL</a>
+              </li>
+            </ul>
+
+            <div class="tab-content">
+              <div class="tab-pane active" id="tab1" role="tabpanel">
+                <h3 class="mt-3">ACTOR</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+              <div class="tab-pane" id="tab2" role="tabpanel">
+                <h3 class="mt-3">MUSICIAN</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+              <div class="tab-pane" id="tab3" role="tabpanel">
+                <h3 class="mt-3">COMEDIAN</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+              <div class="tab-pane" id="tab4" role="tabpanel">
+                <h3 class="mt-3">MODEL</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 </main>
-
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
 </body>
 </html>
