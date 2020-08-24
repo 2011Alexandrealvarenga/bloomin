@@ -40,9 +40,22 @@
     <div class="container-fluid">
       <div class="box-right">
       </div>
+    </div>
+    <div class="main-box">
       <div class="box-center">
+        
+      </div>
+      <div class="view-profile">
+        <a href="#">
+          <div class="left-box">          
+          </div>
+          <div class="rigth-box">          
+          </div>
+        </a>
       </div>
     </div>
+      
+    
     
   </section>
 </main>

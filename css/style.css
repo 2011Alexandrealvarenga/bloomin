@@ -16,10 +16,39 @@ header{
   float: right;
   background: aqua;
 }
-.title .box-center{
-  width: 50%;
-  height: 400px;
-  bottom: 0;
-  left: 20%;
+
+ .title .main-box{
+  width: 70%;
+  height: 500px;
   position: absolute;
+  bottom: 0;
+  left: 2%;
+ }
+ .title .main-box .box-center{
+  position: absolute;
+  width: 80%;
+  height: 500px;
+  bottom: 0;
+  right: 0;
   background:  #cec;}
+
+ .title .main-box .view-profile{
+  width: 29%;
+  bottom: 0;
+  left: 0;
+  height: 14%;
+  background: yellow;
+  position: absolute;}
+
+ .title .main-box .view-profile .left-box{
+  background: #93ecec; 
+  height: 100%;
+  float: left;
+ }
+ .title .main-box .view-profile .rigth-box{
+  height: 100%;
+  width: 30%;
+  background: green;
+  float: right;
+ }
+
