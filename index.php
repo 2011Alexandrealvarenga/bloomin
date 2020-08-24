@@ -65,10 +65,7 @@
       </div>
     </div>      
   </section>
-  <section class="secoes">
-    <div class="container-fluid">
-      <p>modelos</p>
-    </div>
+  <section class="guides mt-5">
     <div class="container-fluid">
       <div class="container">
         <div class="row mt-3">
@@ -89,24 +86,24 @@
             </ul>
 
             <div class="tab-content">
+
               <div class="tab-pane active" id="tab1" role="tabpanel">
-                <h3 class="mt-3">ACTOR</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+                <div class="text2">
+                  <img src="http://placehold.it/200x350" />
+                  <div class="texto">
+                    <i class="icon-up-small"></i>
+                    <div class="texto-interno">
+                      <h3>Keith Ruiz</h3>
+                      <p>Comedian</p>
+                    </div>
+                    
+                  </div>
+                </div>               
                 
               </div>
               <div class="tab-pane" id="tab2" role="tabpanel">
-                <h3 class="mt-3">MUSICIAN</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                ator
               </div>
               <div class="tab-pane" id="tab3" role="tabpanel">
                 <h3 class="mt-3">COMEDIAN</h3>

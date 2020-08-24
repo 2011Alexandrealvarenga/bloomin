@@ -97,3 +97,71 @@ input[type=text]:focus {
   float: right;
  }
 
+/******************************tabs*/
+.guides .nav-tabs{
+  justify-content: center;
+}
+.guides .text2{
+  height: 300px;
+  width: 200px;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.guides .text2 .texto{
+  visibility: hidden;
+}
+
+
+.guides .text2 .texto i{
+  margin: 5px;
+  float: right;
+  color: #fff;
+  font-size: 15px;
+  background: lightgreen;
+  border-radius: 100%;
+  padding: 5px;
+    /*
+  -ms-transform: rotate(45deg); /* IE 9 */
+  /*transform: rotate(45deg);*/
+}
+
+
+
+
+.guides .text2 img{
+  position: relative;
+  bottom: 0px;
+  left: 0px;
+
+  width: 100%;
+  height: 100%;
+}
+.guides  .text2:hover .texto{
+visibility: visible;
+position: absolute;
+top: 0;
+left: 0;
+background:#000;
+width: 100%;
+height: 100%;
+opacity: 0.5;
+}
+
+.guides  .text2:hover .texto-interno{
+  position: absolute;
+  bottom: 20%;
+  left: 27%;
+}
+.guides  .text2:hover .texto p,
+.guides  .text2:hover .texto h3{
+  opacity: 1;
+  color: #fff;
+  text-align: center;
+}
+.guides  .text2:hover .texto p{
+  font-size: 14px;
+}
+.guides  .text2:hover .texto h3{
+  font-size: 20px;
+}
