@@ -256,10 +256,18 @@ opacity: 0.5;
   height: 200px;
   object-fit: cover;
 }
+.latest-news .content-bottom-left{
+  width: 50%;
+  float: left;
+}
 .latest-news .content-bottom-left .content-text{
   padding: 0 10px;
 }
 .latest-news .column-left{
   width: 760px;
   float: left;
+}
+.content-bottom-right{
+  width: 50%;
+  float: right;
 }
