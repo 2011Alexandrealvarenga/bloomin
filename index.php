@@ -558,6 +558,23 @@
     </div>
   </section>
 </main>
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-6">
+        <h4>MITALEXT</h4>
+      </div>
+      <div class="col-6">
+        <div class="newsletter">
+         <H6>SIGN UP OUR NEWSLETTER</H6> 
+         <i class="icon-mail"></i>
+        </div>
+        
+      </div>
+    </div>
+
+  </div>
+</footer>
 <script src="assets/js/jquery.min.js"></script>
 <script src="assets/js/popper.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>

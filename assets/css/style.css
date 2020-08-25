@@ -256,9 +256,20 @@ opacity: 0.5;
   height: 200px;
   object-fit: cover;
 }
+.latest-news .column-left .content-bottom-right .content-image{
+  width: 100%;
+  height: 365px;
+  object-fit: cover;
+}
+.latest-news .column-left .content-bottom-right .content-image img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 .latest-news .content-bottom-left{
   width: 50%;
   float: left;
+  padding: 20px 20px 0 0;
 }
 .latest-news .content-bottom-left .content-text{
   padding: 0 10px;
@@ -267,7 +278,8 @@ opacity: 0.5;
   width: 760px;
   float: left;
 }
-.content-bottom-right{
+.latest-news .column-left .content-bottom-right{
   width: 50%;
   float: right;
+  padding-top: 20px;
 }
