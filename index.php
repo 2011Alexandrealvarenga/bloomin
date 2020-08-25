@@ -26,16 +26,17 @@
         </li>        
       </ul>
       <a class="navbar-brand" href="#">MITALENT</a>
-      <!--
+     
       <form class="form-inline my-2 my-lg-0">
         
         <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="icon-search"></i></button>
       </form>
-      -->
+       <!--
       <form>
         <input type="text" name="search" placeholder=".." >
         
       </form>
+    -->
     </div>
   </nav>
 </header>
@@ -48,7 +49,7 @@
     <div class="main-box">
       <div class="text">
         <h2>Georgina Alson</h2>
-        <p>YOUNG MODEL, 20200</p>
+        <p>YOUNG MODEL, 2020</p>
       </div>
       <div class="box-center">        
       </div>
