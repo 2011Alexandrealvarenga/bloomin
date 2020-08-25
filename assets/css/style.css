@@ -2,15 +2,11 @@ header{
   z-index: 1;
   position: absolute;
   width: 100%;}
-
-header .collapse{
-  justify-content: space-between;
-}
+header .collapse{ justify-content: space-between;}
 header .collapse a.navbar-brand{
   margin:0 ;
   font-weight: bold;
-  font-size: 30px;
-}
+  font-size: 30px;}
 h1,h2,h3,h4,h5,h6{font-family: 'Poppins', sans-serif;}
 p,a{font-family: 'Montserrat', sans-serif;}
 p.date{color: #615d5d;}
@@ -20,34 +16,25 @@ p.date{color: #615d5d;}
   height: 700px;
   top: 0;
   left: 0;}
-
 .title .box-right{
   width: 37%;
   height: 400px;
   float: right;
-  background: aqua;
-}
-
+  background: aqua;}
  .title .main-box{
   width: 70%;
   height: 550px;
   position: absolute;
   bottom: 0;
-  left: 2%;
- }
+  left: 2%;}
  .title .main-box .text{
   z-index: 1;
   position: absolute;
   top: 40%;
   left: 15%;
-  width: 300px;
- }
- .title .main-box .text h2{
-  font-size: 48px;
- }
- .title .main-box .text p{
-  padding: 20px 0;
- }
+  width: 300px;}
+ .title .main-box .text h2{  font-size: 48px; }
+ .title .main-box .text p{  padding: 20px 0; }
  .title .main-box .box-center{
   position: absolute;
   width: 80%;
@@ -72,11 +59,8 @@ p.date{color: #615d5d;}
   height: 100%;
   float: left;
   color: #fff;
-  width: 70%;
- }
- .title .main-box .view-profile .left-box p{
-  font-size: 10px;
- }
+  width: 70%; }
+ .title .main-box .view-profile .left-box p{ font-size: 10px; }
  .title .main-box .view-profile .rigth-box{
   height: 100%;
   width: 30%;
@@ -84,23 +68,12 @@ p.date{color: #615d5d;}
   float: right;
   justify-content: center;
   align-items: center;
-  display: flex;
-
- }
-  .title .main-box .view-profile .rigth-box i{
-    font-size: 40px;
-    color: #000;
-  }
-/******************************tabs*/
-.guides .nav-tabs{
-  justify-content: center;
-}
-.guides .nav li a{
-  color: #000;
-}
-.guides .tab-content {
-  width: 1110px;
-}
+  display: flex; }
+  .title .main-box .view-profile .rigth-box i{font-size: 40px;color: #000; }
+/*tabs*/
+.guides .nav-tabs{justify-content: center;}
+.guides .nav li a{color: #000;}
+.guides .tab-content {width: 1110px;}
 
 .guides .text2{
   height: 260px;
@@ -114,10 +87,7 @@ p.date{color: #615d5d;}
   visibility: hidden;
   position: absolute;
   width: 100%;
-  height: 100%;
-}
-
-
+  height: 100%;}
 .guides .text2 .texto i{
   margin: 5px;
   float: right;
@@ -125,23 +95,14 @@ p.date{color: #615d5d;}
   font-size: 15px;
   background: lightgreen;
   border-radius: 100%;
-  padding: 5px;
-    /*
-  -ms-transform: rotate(45deg); /* IE 9 */
-  /*transform: rotate(45deg);*/
-}
-
-
-
-
+  padding: 5px;}
 .guides .text2 img{
   position: relative;
   bottom: 0px;
   left: 0px;
   width: 100%;
   height: 100%;
-  object-fit: cover;
-}
+  object-fit: cover;}
 .guides  .text2:hover .texto{
 visibility: visible;
 position: absolute;
@@ -151,51 +112,32 @@ background:#000;
 width: 100%;
 height: 100%;
 opacity: 0.5;
-transition: 1s;
-}
+transition: 1s;}
 
 .guides  .text2:hover .texto-interno{
   position: absolute;
   bottom: 20%;
-  left: 33%;
-}
+  left: 33%;}
 .guides  .text2:hover .texto p,
 .guides  .text2:hover .texto h3{
   opacity: 1;
   color: #fff;
   text-align: center;
 }
-.guides  .text2:hover .texto p{
-  font-size: 14px;
-}
-.guides  .text2:hover .texto h3{
-  font-size: 20px;
-}
+.guides  .text2:hover .texto p{  font-size: 14px;}
+.guides  .text2:hover .texto h3{  font-size: 20px;}
 .guides .e-more{
   padding: 10px 20px;
   background: lightgreen;
   color: white;
   font-weight: bold;
-  border-radius: 50px;
-}
-/************************************ultimas noticias*/
-.latest-news .content{
-  width: 33%;  
-  display: flex;
-}
-.latest-news .content .content-image{
-  padding: 0;
-}
-.latest-news .content .content-image img{
-  width: 150px;
-  height: 80px;
-}
-.latest-news .content .content-text{
-  padding: 0 10px;
-}
-.latest-news .box{
-  height: 250px
-}
+  border-radius: 50px;}
+/*ultimas noticias*/
+.latest-news .content{ width: 33%; display: flex;}
+.latest-news .content .content-image{ padding: 0;}
+.latest-news .content .content-image img{ width: 150px; height: 80px;}
+.latest-news .content .content-text{ padding: 0 10px;}
+.latest-news .box{height: 250px}
 .latest-news .box .box-left{
   background: green;
   height: 100%;
@@ -209,9 +151,7 @@ transition: 1s;
   bottom: 10px;
   color: #fff;
 }
-.latest-news .box .box-left .text p{
-  padding-top: 10px; 
-}
+.latest-news .box .box-left .text p{ padding-top: 10px;}
 .latest-news .box .box-right{
   width: 65%;
   background: lightgreen;
@@ -226,68 +166,44 @@ transition: 1s;
   font-weight: bold;
 }
 
-.latest-news .text h5{
-  font-weight: bold;
-}
+.latest-news .text h5{  font-weight: bold;}
 .latest-news .carousel .carousel-inner img{
   height: 550px!important;
   object-fit: cover;
 }
 
-.latest-news .content-bottom-left{
-
-}
-.latest-news .column-left .content-bottom{
-  width: 50%;
-}
-.latest-news .column-left .content-image{
-  width: 100%;
-  padding: 0;
-}
+.latest-news .column-left .content-bottom{  width: 50%;}
+.latest-news .column-left .content-image{ width: 100%;  padding: 0;}
 .latest-news .column-left .content-image img{
   width: 100%;
   height: 200px;
-  object-fit: cover;
-}
+  object-fit: cover;}
 .latest-news .column-left .content-bottom-right .content-image{
   width: 100%;
   height: 365px;
-  object-fit: cover;
-}
+  object-fit: cover;}
 .latest-news .column-left .content-bottom-right .content-image img{
   width: 100%;
   height: 100%;
-  object-fit: cover;
-}
+  object-fit: cover;}
 .latest-news .content-bottom-left{
   width: 50%;
   float: left;
-  padding: 20px 20px 0 0;
-}
-.latest-news .content-bottom-left .content-text{
-  padding: 0 10px;
-}
-.latest-news .column-left{
-  width: 760px;
-  float: left;
-}
+  padding: 20px 20px 0 0;}
+.latest-news .content-bottom-left .content-text{  padding: 0 10px;}
+.latest-news .column-left{ width: 760px;  float: left;}
 .latest-news .column-left .content-bottom-right{
   width: 50%;
   float: right;
   padding-top: 20px;
 }
-/****************************footer*/
+/*footer*/
 
 .footer{margin-top: 100px;}
 .footer i{padding-left: 25px;font-weight: bold;}
-.footer h4{
-  font-weight: bold;
-}
+.footer h4{font-weight: bold;}
 .footer .newsletter,
 .footer .social-media .newsletter{
   float: right;
-  display: flex;
-}
-.footer .social-media p{
-  float: left;
-}
+  display: flex;}
+.footer .social-media p{float: left;}
