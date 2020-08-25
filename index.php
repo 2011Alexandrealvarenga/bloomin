@@ -19,14 +19,11 @@
       
       <ul class="navbar-nav  mt-2 mt-lg-0">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="#">CLIENTS</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#">Disabled</a>
-        </li>
+          <a class="nav-link" href="#">NEWS</a>
+        </li>        
       </ul>
       <a class="navbar-brand" href="#">MITALENT</a>
       <!--
@@ -495,7 +492,7 @@
           </div>
         </div>
       </div>
-      <div class="row pt-5">
+      <div class="row pt-5 mb-5">
         <div class="column-left">
           <div class="box">
             <div class="box-left">
@@ -559,7 +556,7 @@
   </section>
 </main>
 <footer>
-  <div class="container">
+  <div class="container mt-5">
     <div class="row">
       <div class="col-6">
         <h4>MITALEXT</h4>
