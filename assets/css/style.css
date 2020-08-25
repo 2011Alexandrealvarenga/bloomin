@@ -283,3 +283,8 @@ opacity: 0.5;
   float: right;
   padding-top: 20px;
 }
+/****************************footer*/
+footer .newsletter{
+  float: right;
+  display: flex;
+}
