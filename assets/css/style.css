@@ -9,30 +9,11 @@ header .collapse{
 header .collapse a.navbar-brand{
   margin:0 ;
   font-weight: bold;
+  font-size: 30px;
 }
-
-
-
-input[type=text] {
-  width: 10px;
-  box-sizing: border-box;
-  border: 2px solid #ccc;
-  border-radius: 4px;
-  font-size: 16px;
-  background-color: white;
-  background-image: url('../img/search.png');
-  background-position: 10px 10px; 
-  background-repeat: no-repeat;
-  padding: 12px 20px 12px 40px;
-  -webkit-transition: width 0.4s ease-in-out;
-  transition: width 0.4s ease-in-out;
-}
-
-input[type=text]:focus {
-  width: 200px;
-}
-
-
+h1,h2,h3,h4,h5,h6{font-family: 'Poppins', sans-serif;}
+p,a{font-family: 'Montserrat', sans-serif;}
+p.date{color: #615d5d;}
 .title{
   position: relative;
   width: 100%;
@@ -84,30 +65,43 @@ input[type=text]:focus {
   position: absolute;}
 
  .title .main-box .view-profile .left-box{
+  justify-content: center;
+  align-items: center;
+  display: flex;
   background: #93ecec; 
   height: 100%;
   float: left;
+  color: #fff;
+  width: 70%;
+ }
+ .title .main-box .view-profile .left-box p{
+  font-size: 10px;
  }
  .title .main-box .view-profile .rigth-box{
   height: 100%;
   width: 30%;
   background: white;
   float: right;
- }
+  justify-content: center;
+  align-items: center;
+  display: flex;
 
+ }
+  .title .main-box .view-profile .rigth-box i{
+    font-size: 40px;
+    color: #000;
+  }
 /******************************tabs*/
 .guides .nav-tabs{
   justify-content: center;
 }
-#tab1{
-
+.guides .nav li a{
+  color: #000;
 }
 .guides .tab-content {
   width: 1110px;
 }
-.guides .tab-content .tab-pane{
 
-}
 .guides .text2{
   height: 260px;
   width: 24%;
@@ -157,6 +151,7 @@ background:#000;
 width: 100%;
 height: 100%;
 opacity: 0.5;
+transition: 1s;
 }
 
 .guides  .text2:hover .texto-interno{
@@ -283,14 +278,16 @@ opacity: 0.5;
 }
 /****************************footer*/
 
-footer h4{
+.footer{margin-top: 100px;}
+.footer i{padding-left: 25px;font-weight: bold;}
+.footer h4{
   font-weight: bold;
 }
-footer .newsletter,
-footer .social-media .newsletter{
+.footer .newsletter,
+.footer .social-media .newsletter{
   float: right;
   display: flex;
 }
-footer .social-media p{
+.footer .social-media p{
   float: left;
 }
