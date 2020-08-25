@@ -284,7 +284,17 @@ opacity: 0.5;
   padding-top: 20px;
 }
 /****************************footer*/
-footer .newsletter{
+footer{
+    padding-top: 200px;
+}
+footer h4{
+  font-weight: bold;
+}
+footer .newsletter,
+footer .social-media .newsletter{
   float: right;
   display: flex;
+}
+footer .social-media p{
+  float: left;
 }

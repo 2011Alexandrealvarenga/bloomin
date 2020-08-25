@@ -572,6 +572,22 @@
         
       </div>
     </div>
+    <div class="row social-media">
+      <div class="col-6">
+        <p>@2018 Mt Talent. Designed by Tranmautritam for Mass Impressions. </p>
+      </div>
+      <div class="col-6">
+        <div class="newsletter">
+         
+         <i class="icon-facebook-squared"></i>
+         <i class="icon-instagram"></i>
+         <i class="icon-youtube-play"></i>
+         <i class="icon-twitter"></i>
+        </div>
+        
+      </div>
+    </div>
+
 
   </div>
 </footer>
