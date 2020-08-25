@@ -508,13 +508,18 @@
               <p>TRENDING</p>
             </div>
           </div>
-          <div class="content-bottom">
+          <div class="content-bottom-left">
             <div class="content-image">
               <img src="assets/img/1.jpg" alt="">
             </div>
             <div class="content-text">
               <h5>5 Reasons To Keep your Beauty Salon Reservation</h5>
               <p>8 March, 2020</p>
+            </div>
+          </div>
+          <div class="content-bottom-right">
+            <div class="content-image">
+              <img src="assets/img/1.jpg" alt="">
             </div>
           </div>
         </div>
